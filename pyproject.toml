@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pwhomework10-second-option"
+version = "0.1.0"
+description = ""
+authors = ["Jymbarbaruoky <116517553+Jymbarbaruoky@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "pwhomework10_second_option"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2"
+pymongo = "^4.3.3"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
